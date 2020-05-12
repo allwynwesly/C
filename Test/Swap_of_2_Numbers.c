@@ -6,7 +6,10 @@ printf(" Enter the value for A : ");
 scanf("%d",&a );
 printf(" Enter the value for B : ");
 scanf("%d",&b );
-int c=a; a=b; b=c;
-printf(" \n After Swapping: A=%d and B=%d\n",a,b);
+printf(" \n Before Swapping : A=%d and B=%d\n",a,b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf(" After Swapping  : A=%d and B=%d\n",a,b);
 return 0;
 }
