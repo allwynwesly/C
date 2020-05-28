@@ -11,7 +11,6 @@ int main()
 }
 int addition(int num)
 {
-    // Base condition
     if(num == 0)
         return 0;
     return ((num % 10) + addition(num / 10));
